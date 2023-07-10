@@ -5,3 +5,5 @@
 * v0.0.2 - web.xml applicationContextMVC.xml delete / MySpringMvcDispatcherServletInitializer and SpringConfig
 
 * v0.0.3 - @Controller @RequestMapping html links
+
+* v0.0.4 - Параметры GET запроса. Аннотация @RequestParam, HttpServletRequest
