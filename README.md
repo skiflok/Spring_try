@@ -7,3 +7,5 @@
 * v0.0.3 - @Controller @RequestMapping html links
 
 * v0.0.4 - Параметры GET запроса. Аннотация @RequestParam, HttpServletRequest
+
+* v0.0.5 - Передача данных от контроллера к представлению. (calculator)
