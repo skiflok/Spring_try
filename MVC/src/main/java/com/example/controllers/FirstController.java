@@ -12,6 +12,33 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/first")
 public class FirstController {
 
+  @GetMapping("/calculator")
+  public String calculator (
+      @RequestParam(value = "a", required = false) int a,
+      @RequestParam(value = "b", required = false) int b,
+      @RequestParam(value = "action", required = false) String action,
+      Model model) {
+    double res = 0;
+    switch (action) {
+      case "multiplication" :
+        res = a * b;
+        break;
+      case "division" :
+        res = a / (double) b;
+        break;
+      case "subtraction" :
+        res = a - b;
+        break;
+      case "addition" :
+        res = a + b;
+        break;
+    }
+
+    model.addAttribute("result", res);
+
+    return "first/calculator";
+  }
+
   @GetMapping("/hello")
   public String helloPage(HttpServletRequest httpServletRequest) {
     String name = httpServletRequest.getParameter("name");
