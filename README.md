@@ -9,3 +9,5 @@
 * v0.0.4 - Параметры GET запроса. Аннотация @RequestParam, HttpServletRequest
 
 * v0.0.5 - Передача данных от контроллера к представлению. (calculator)
+
+* v0.0.6 - CRUD, REST, Паттерн DAO (Data Access Object)
