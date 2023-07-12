@@ -11,3 +11,5 @@
 * v0.0.5 - Передача данных от контроллера к представлению. (calculator)
 
 * v0.0.6 - CRUD, REST, Паттерн DAO (Data Access Object)
+
+* v0.0.7 - CRUD приложение. PATCH, DELETE запросы
