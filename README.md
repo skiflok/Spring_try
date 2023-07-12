@@ -13,3 +13,4 @@
 * v0.0.6 - CRUD, REST, Паттерн DAO (Data Access Object)
 
 * v0.0.7 - CRUD приложение. PATCH, DELETE запросы
+
