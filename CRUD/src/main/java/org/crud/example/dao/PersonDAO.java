@@ -38,4 +38,15 @@ public class PersonDAO {
     person.setId(PEOPLE_COUNT++);
     people.add(person);
   }
+
+  public void update(int id, Person person) {
+    Person personToBeUpdated = show(id);
+
+    personToBeUpdated.setName(person.getName());
+  }
+
+  public void delete(int id) {
+    people.removeIf(person -> person.getId() == id);
+  }
+
 }
